@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kirim Pesan Rahasia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <div class="avatar">
+      <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Secret" alt="Avatar">
+    </div>
+    <h2>Kirim Pesan Anonim</h2>
+    <p class="subtitle">Ketik kritik, saran, atau ungkapan rahasiamu di sini. Identitasmu bakal tetep aman!</p>
+
+    <!-- Nanti ganti link action ini dengan link Formspree kamu -->
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <textarea 
+        name="pesan" 
+        placeholder="Tulis pesan rahasia kamu di sini..." 
+        required></textarea>
+      
+      <button type="submit">Kirim Pesan</button>
+    </form>
+  </div>
+
+</body>
+</html>
+  
